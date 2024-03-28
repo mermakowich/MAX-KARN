@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+}
+
+.desktop {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.panel {
+    height: 5%;
+    background-color: rgb(50, 14, 14);
+    display: flex;
+    justify-content: space-between;
+}
+
+.clocks {
+    color:aliceblue;
+}
+
+.desktop-element {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 120px;
+    height: calc(95% / 8);
+    padding: 10px;
+    text-align: center;
+}
+
+.desktop-element > img {
+    flex-grow: 2;
+    width: 100%;
+}
